@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: net.sf.log4jdbc.DriverSpy
+    username: root
+    password: 123456
+    url: jdbc:log4jdbc:mysql://127.0.0.1:3306/imooc-springcloud?characoerEncoding=utf-8&useSSl=false
+  jpa:
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
+server:
+  port: 8001
+logging:
+  level:
+    com.imooc: debug
