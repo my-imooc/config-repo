@@ -9,4 +9,4 @@ spring:
 logging:
   level:
     com.imooc: debug
-env: order-1
+env: order-2
