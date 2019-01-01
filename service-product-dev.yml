@@ -9,4 +9,4 @@ spring:
 logging:
   level:
     com.imooc: debug
-env: test222222
+env: test222222-product
