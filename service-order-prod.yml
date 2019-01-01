@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: xxxxxx
+    url: jdbc:mysql://127.0.0.1:3306/imooc-springcloud?characoerEncoding=utf-8&useSSl=false
+  jpa:
+    show-sql: true
