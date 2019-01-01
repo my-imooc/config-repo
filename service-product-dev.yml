@@ -9,3 +9,4 @@ spring:
 logging:
   level:
     com.imooc: debug
+env: test1
